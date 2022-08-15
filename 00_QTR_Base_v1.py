@@ -1,4 +1,15 @@
-# Functions go here...
+"""
+base component for the Guess the recipe
+V0 - skeleton setup
+v1 - yes and no checker have been added
+author- Chisomo Kamphambe
+CC CLK 2022
+"""
+
+
+# Import libraries go here **************************
+
+# functions go here **************************
 def yes_no(question):
     valid = False
     while not valid:
@@ -16,7 +27,7 @@ def yes_no(question):
             print("Please answer yes / no")
 
 
-# Main routine goes here
+# main routine goes here ***************
 
 played_before = yes_no("Have you played the game before? ")
 
