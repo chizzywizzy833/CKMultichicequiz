@@ -1,4 +1,11 @@
-# function go here...
+"""
+instructions component
+print instruction or continue program based on user input
+v1 - add yes and no checker to test with instruction component
+"""
+
+
+# functions go here **************************
 
 def yes_no(question):
     valid = False
@@ -17,7 +24,7 @@ def yes_no(question):
             print("Please answer yes / no")
 
 
-# main routine
+# main routine goes here ***************
 display_instructions = yes_no("Have you played the game before? ")
 
 if display_instructions == "no":
