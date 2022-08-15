@@ -1,4 +1,13 @@
-# Functions go here...
+"""
+yes_no checker component
+v1 - set up yes and checker
+v2 - make code more efficient using or statements
+v3 - turn v2 code into  a function and add to base component v1
+"""
+
+
+# functions go here **************************
+
 def yes_no(question):
     valid = False
     while not valid:
@@ -16,7 +25,8 @@ def yes_no(question):
             print("Please answer yes / no")
 
 
-# Main Routine goes here...
+# main routine goes here ***************
+
 display_instructions = yes_no("Have you played the game before? ")
 
 print("You choose {}".format(display_instructions))
