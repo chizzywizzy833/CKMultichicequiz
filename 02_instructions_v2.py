@@ -27,17 +27,19 @@ def yes_no(question):
 def instructions():
     print("****How to play****")
     print()
-    print("The rules of the game")
+    print("")
     print()
     return ""
 
 
 # main routine goes here ***************
 
+# call yes and no function
 played_before = yes_no("Have you played the game before? ")
 
 print("You choose {}".format(played_before))
 
+# call instructions function
 if played_before == "no":
     instructions()
 
