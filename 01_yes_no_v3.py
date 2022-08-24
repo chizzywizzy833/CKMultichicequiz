@@ -27,6 +27,7 @@ def yes_no(question):
 
 # main routine goes here ***************
 
+# call yes and no function
 display_instructions = yes_no("Have you played the game before? ")
 
 print("You choose {}".format(display_instructions))
