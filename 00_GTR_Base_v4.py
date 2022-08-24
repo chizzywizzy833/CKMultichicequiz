@@ -4,7 +4,8 @@ V0 - skeleton setup
 v1 - yes and no checker has been added
 v2 - working instructions has been added
 v3 - working question component has been added
-V3.1 - randomization = every time you will be asked all the question in a different order if your resset the program
+V3.1 - randomization = every time you will be asked all the question in a different order if your resset the program &
+added functions to shorten code
 v4 - working score component
 author- Chisomo Kamphambe
 CC CLK 2022
