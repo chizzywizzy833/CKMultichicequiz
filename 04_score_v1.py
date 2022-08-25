@@ -78,5 +78,3 @@ for num, (recipe, alternatives) in enumerate(Ingredients.items(), start=1):
         print("⭐ Correct! ⭐")
     else:
         print(f"The answer is {correct_recipe!r}, not {answer!r}")
-
-print(f"\nYou got {score}  out of 10 recipes correct")
